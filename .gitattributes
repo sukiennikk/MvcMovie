@@ -61,3 +61,20 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+# Automatyczne wykrywanie plików tekstowych i normalizacja końców linii
+* text=auto
+
+# Pliki kodu źródłowego
+*.cs text diff=csharp
+*.cshtml text
+*.css text
+*.js text
+*.json text
+
+# Pliki graficzne i binarne (traktuj jako binarne)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
