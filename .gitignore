@@ -361,3 +361,27 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
+## Foldery kompilacji i binaria
+[Bb]in/
+[Oo]bj/
+[Zz]ip/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ustawienia użytkownika i sekrety
+usersecrets.json
+[Aa]ppsettings.Development.json
+
+## Pliki bazy danych (LocalDB)
+*.mdf
+*.ldf
+
+## Inne
+.DS_Store
